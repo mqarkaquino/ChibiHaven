@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Dela+Gothic+One&family=DotGothic16&family=Potta+One&family=Rampart+One&family=Reggae+One&family=Stick&display=swap"
+		rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Add to Cart</title>
+</head>
+<style>
+	body {
+		font-family: "Afacad Flux", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: weight;
+		font-style: normal;
+		font-variation-settings: "slnt" 0;
+		font-size: 20px;
+		background-image:url('forExplore/thumb_1685455406_45068.jpg');
+	}
+
+	.container {
+		display: flex;
+		justify-content: center;
+		width: 35em;
+		background: white;
+		box-shadow:1px 5px 15px black;
+		border-radius: 10px;
+		padding: 20px;
+		max-width: 600px;
+		margin: auto;
+		margin-top: 100px;
+	}
+
+	p {
+		font-size: 0.6em;
+		color: red;
+		letter-spacing: 1px;
+	}
+
+	.images {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: auto;
+	}
+
+	.imahe {
+		width: 250px;
+		height: 310px;
+		border-radius: 5px;
+		margin-right: 20px;
+		border:1px solid black;
+	}
+
+	.slideshow-buttons {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.slideshow-buttons span {
+		width: 7px;
+		height: 7px;
+		border-radius: 50%;
+		background: black;
+	}
+	.seasons{
+		display:flex;
+		gap:10px;
+		
+	}
+	.seasons a{
+		text-decoration:none;
+		
+		
+	}
+
+	.pick {
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+	.pick:hover{
+		color:black;
+		font-weight:bold;
+	}
+
+	.sizes {
+		display: flex;
+		justify-content: flex-start;
+		column-gap: 10px;
+		flex-wrap: wrap;
+		cursor:pointer;
+
+	}
+
+	.size {
+		border: none;
+		width: 28px;
+		height: 28px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		padding: 2px;
+		font-size: 18px;
+		transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+	}
+
+	.size:hover {
+		background: red;
+		color: white;
+		transform: scale(1.1)
+	}
+
+	.product {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-right: 20px;
+	}
+
+	#p {
+		text-transform: uppercase;
+	}
+
+	.par2 {
+		font-size: 30px;
+	}
+
+	.description {
+		text-transform: none;
+		letter-spacing: 5;
+		margin-bottom: 17px;
+		color: rgba(20, 16, 16, 1.00);
+		font-size:16px;
+		line-height: 1.6em;
+		text-align: justify;
+	}
+
+	.buttons {
+		padding: 1px;
+		display: flex;
+		outline: 0;
+		border: 0;
+		border-radius: 2px;
+		letter-spacing: 1px;
+		color: white;
+		cursor: pointer;
+		
+	}
+
+	.buttons:hover {
+		transition: all 0.4s ease-in-out;
+	}
+
+	.add {
+		width: 110px;
+		height:40px;
+		text-transform: uppercase;
+		margin-right:10px;
+	}
+	.add:hover{
+		background-color:red;
+		color:white;
+	}
+	.buy {
+		width: 60px;
+		height:40px;
+		text-transform: uppercase;
+		margin-right:60px;
+	}
+	.buy:hover{
+		background-color:red;
+		color:white;
+	}
+
+	.back {
+		width: 70px;
+		height:40px;
+		text-transform: uppercase;
+	}
+	.back:hover{
+		background-color:black;
+		color:white;
+	}
+	.des{
+		font-size:40px;
+	}
+	
+</style>
+
+<body>
+
+	<div class="container">
+
+		<div class="images">
+			<img src="PARADISEKISSIMAGE/paradisekiss.jpg" class="imahe">
+
+			<div class="slideshow-buttons">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<div class="seasons">
+				<a href="#">
+					<p class="pick">Season 1</p>
+				</a>
+				<a href="#">
+					<p class="pick"></p>
+				</a>
+			</div>
+
+			<div class="sizes">
+				<span class="size">Vol1</span>
+				<span class="size">Vol2</span>
+				<span class="size">Vol3</span>
+				<span class="size">Vol4</span>
+				<span class="size">Vol5</span>
+				<span class="size">Vol6</span>
+				<span class="size">Vol7</span>
+				<span class="size">Vol8</span>
+				<span class="size">Vol9</span>
+				<span class="size">Vol10</span>
+				<span class="size">Vol..</span>
+			</div>
+		</div>
+
+
+		<div class="product">
+
+			<p class="par2">Paradise Kiss</p>
+			<h3>Paradise Kiss - (English/Tagalog)</h3>
+			<h3><i class="fa-solid fa-peso-sign"></i>202.66 per Volume</h3>
+			<p class="description">a story about a model named Yukari who discovers that her ex-boyfriend, George, has been following her career and buying her magazines from around the world.</p>
+
+			<div class="buttons">
+				<button class="add">Add to cart</button>
+				<button class="buy">Buy</button>
+				<a href="BUY-BOOKS.html"><button class="back"> Back </button></a>
+			</div>
+
+		</div>
+	</div>
+
+
+</body>
+
+</html>

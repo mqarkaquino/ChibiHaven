@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Dela+Gothic+One&family=DotGothic16&family=Potta+One&family=Rampart+One&family=Reggae+One&family=Stick&display=swap"
+    rel="stylesheet">
+    <title>About</title>
+</head>
+<style>
+    body{
+        font-family: "Afacad Flux", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings: "slnt" 0;              
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    header{
+        
+        background-image:url(web.webp);
+        background-size: cover;
+        color:white;
+        text-align: center;
+        padding: 10px 20px 50px 0px;
+        position: relative;
+        overflow: hidden;
+       
+    }
+    .backcolor{
+        background: linear-gradient(black,black,red);
+    }
+    
+    header .hero h1 span{
+        font-size: 40px;
+        color: #d10c05;
+    }
+    header .hero p{
+        font-size:23px;
+    }
+    header .btn{
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        
+        color:black;
+        background:red;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 40px;
+        font-family: "Afacad Flux", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings: "slnt" 0;      
+    }
+    .btn{
+        border:1px solid white;
+        
+    }
+    .hero .btn{
+        color:white
+        
+        
+    }
+    header .btn:hover{
+        
+        color:white;
+        transform: scale(1.1);
+    }
+
+    header .btn:hover{
+        background-color:black;
+    }
+    .hero p{
+        color:white;
+    }
+
+
+    
+    .btn{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+    .user-need{
+        display:flex;
+        justify-content:flex-end;
+        
+    }
+    .user-need a{
+        text-decoration:none;
+    }
+
+   
+   
+    
+    nav a{
+        font-family: "Afacad Flux", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings: "slnt" 0;
+       
+        
+    }
+   
+    nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        background: #000000;
+    }
+    nav ul li{
+        margin:0 45px;
+       
+        
+    }
+    nav ul li a{
+        color: rgb(255, 246, 246);
+        text-decoration: none;
+        font-size: 1.2rem;
+        transition: color o.3s ease;
+        font-size: 23px;
+        
+    }
+    nav ul li a:hover{
+        color: #e71e0c;
+    }
+    .section{
+        padding: 50px 20px;
+        text-align: center;
+        background:white;
+        border:1px solid black;
+       
+        margin: 20px 0;
+        opacity: 0;
+        transform: translateY(30px);
+        animation: slidein 1s ease-in-out forwards;
+    }
+    .projects{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .projects h3{
+        color: black;
+        font-size: 18px;
+    }
+    h2{
+        color: red;
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 19px;
+    }
+    .project-card{
+        background:white;
+        border:1px solid black;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        
+        box-shadow: 0 4px 10px  rgb(0,0,0,0.1);
+        transition: transform 0.9 ease,box-shadow 0.6s ease;
+        width: 300px;
+    }
+    .hero a{
+        color:white;
+    }
+   
+    .project-card:hover{
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgb(0,0,0,0.2);
+    }
+    @keyframes fadein{
+        from{
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    @keyframes slidein{
+        from{
+            opaity:0;
+            transform: translateY(30px);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    footer{
+        background:gray;
+        color: white;
+        text-align: center;
+        padding: 20px;
+
+    }
+    
+    
+  
+    
+    @media(max-width:768px){
+        .projects{
+            flex-direction: column;
+            align-items: center;
+        }
+        .project-card{
+            
+        width: 90%;
+    }
+    }
+    
+    .section slide-in p{
+        font-size: 15px;
+    }
+
+    .nav-bottom{
+   
+   height:100px;
+   
+  
+}
+.nav-bottom-image{
+ 
+ height:50px
+  
+}
+.nav-bottom-image img{
+   margin-left:1015px;
+   height:350px;
+   
+   
+}
+
+
+
+
+.thickline {
+
+   height: 50px;
+}
+
+.about {
+   border: 1px solid black;
+}
+
+.about h1 {
+   text-align: center;
+}
+
+.footer {
+  
+   display:flex;
+   font-family: "Afacad Flux", sans-serif;
+   
+   background-color: #2c2b2b;
+   width: 1520px;
+   height: 250px;
+}
+
+.forabout {
+   margin-top:20px;
+   margin-left:50px;
+  
+   
+}
+.after-footer{
+   background-color:black;
+   height:60px;
+   display:flex;
+   justify-content:center; 
+   gap:50px;
+   border:1px solid black;
+  
+   
+}
+.forabout p{
+   font-size:26px;
+   margin-top:0px;
+   margin-bottom:0px;
+   color:#949494;
+}
+.forabout a{
+   text-decoration:none;
+}
+.formargin{
+   margin-left:1230px;
+}
+.chibi{
+   height:35px;
+   margin-top:15px;
+  
+}
+.haven{
+   height:35px;
+   margin-top:15px;
+}
+.terms{
+   display:flex;
+   justify-content:center;
+   gap:30px;
+   margin-top:50px; 
+}
+.forabout p:hover{
+   color:red;
+   
+}
+    
+
+    
+  
+</style>
+<body>
+    <div class="backcolor">
+    <header>
+        <div class="hero">
+            <h1 class="fade-in">Hello,I'm<span> Aquino</span></h1>
+            <p class="fade-in">A passionate and professional Tambay who developed this website</p>
+            <a href="#about" class="btn">Discover More</a>
+        </div>
+    </header>
+    </div>
+
+    
+
+
+
+
+    <nav>
+       <ul> 
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">ChibiHaven</a></li>
+       </ul>
+    </nav>
+
+    <section id="about" class="section slide-in">
+        <h2>About me</h2> 
+        <p>I'm a developer dedicating to crafting beautiful,reponsive,and user-friendly website My expertise lies in HTML,CSS and JAVA SCRIPT,with a kenn interest in modern web technologies.</p>
+    </section>
+
+    <section id="projects" class="section slide-in">
+        <h2>How to start coding?</h2>
+        <div class="projects">
+            <div class="project-card hover-grow">
+                <h3>Step 1</h3>
+                <p>Brew a coffee and place it on the side.</p>
+            </div>
+            <div class="project-card hover-grow">
+                <h3>Step 2</h3>
+                <p>Try to code while drinking coffee.</p>
+            </div>
+            <div class="project-card hover-grow">
+                <h3>Step 3</h3>
+                <p>if you have error, cout<<"Go to sleep" else cout<<"Debug it and start again".</p>
+            </div> 
+        </div>
+    </section>
+    <section id="contact" class="section slide-in">
+        <h2>Contact Me</h2>
+        <p>Email:chibihaven@gmail.com</p>
+        <p>Phone:+63 9876 543 210</p>
+    </section>
+    
+    <div class="nav-bottom">
+        <div class="nav-bottom-image">
+            <img src="forNavBottom/wp13240315-removebg-preview.png">
+        </div>
+
+    </div>
+
+
+    <div class="footer">
+        <div class="forabout">
+            <a href="about-website.html">
+                <p>About Chibi Haven</p>
+            </a>
+            <a href="">
+                <p>Contact Chibi Haven</p>
+            </a>
+            <a href="FAQ.html">
+                <p>FAQ</p>
+            </a>
+            <a href="">
+                <p>Twitter(X)</p>
+            </a>
+
+
+
+            <div class="terms">
+                <a href="">
+                    <p>Terms of Use</p>
+                </a>
+                <a href="">
+                    <p>Privacy Policy</p>
+                </a>
+                <a href="">
+                    <p>Copyrights</p>
+                </a>    
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="after-footer">
+        <div class="formargin">
+            <img src="forFooterImg/Screenshot_2024-10-23_163758-removebg-preview.png" class="chibi">
+            <img src="forFooterImg/haven.png" class="haven">
+        </div>
+    </div>
+
+</body>
+</html>

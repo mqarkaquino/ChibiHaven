@@ -1,0 +1,1757 @@
+body {
+
+    background-color: white;
+    width: 1520px;
+    margin: 0;
+    padding: 0;
+   
+   
+    
+}
+.logo img {
+    border: 3px solid black;
+    height: 80px;
+    width: 70px;
+    margin-right: 20px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 1518px;
+    height: 70px;
+
+}
+
+
+
+.navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    gap: 10px;
+    font-size:20px;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.navbar li {
+    flex: 1;
+    padding-left: 10px;
+
+}
+
+.navbar a {
+
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar i {
+    color: orange;
+}
+
+
+
+
+
+.navbar a:hover {
+    color: red;
+}
+
+.navbar select,
+.navbar input {
+    height: 30px;
+}
+
+.navbar select {
+    width: 100px;
+    margin-right: 50px;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    gap: 30px;
+
+}
+
+.choices input {
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 40px;
+    background-color: white;
+    font-family:Tahoma;
+}
+
+.choices input:hover {
+    color: white;
+    background-color: red;
+}
+
+.choices select {
+
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 40px;
+    height: 38px;
+    width: 100px;
+
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+
+
+.search-bar {
+    padding-left: 50px;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+
+}
+
+.search-bar input {
+    height: 40px;
+}
+
+.button-search {
+    border-radius: 50px 0px 0px 50px;
+    color: white;
+    background-color: red;
+    border: 1px solid white;
+}
+
+.search {
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+select {
+    width: 5em;
+}
+
+.search input {
+
+    height: 40px;
+    width: 250px;
+}
+
+h2 {
+    color: white;
+    text-align: start;
+    margin: 10px;
+}
+
+
+
+.logo {
+    padding-right: 0px;
+
+}
+
+
+.td-menu {
+    padding-left: 1070px;
+    gap: 30px;
+    display: flex;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    font-family: "Afacad Flux", sans-serif;
+    font-size:20px;
+    
+    
+
+
+}
+
+.title-descript {
+
+    display: flex;
+    
+    font-family:Tahoma;
+    padding: 0px;
+
+}
+
+.title-descript a {
+    text-decoration: none;
+    color: black;
+}
+
+.title-descript p {
+    color: white;
+}
+
+.title-descript span {
+    color: black;
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.title-descript sup {
+    font-family: arial;
+    font-size: 12px;
+}
+
+.title-descript img {
+    width: 200px;
+    height: 115px;
+
+}
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1520px;
+
+}
+
+.Popular-image0 img {
+    margin: 0 0 0 80px;
+    width: 190px;
+    height: 250px;
+    border: 4px solid purple;
+
+}
+
+.Popular-image0 {
+    padding: 40px 10px;
+    background-color: #ffd25f;
+    height: 350px;
+}
+
+.Popular-image-hidden img {
+    margin: 0 0 0 80px;
+    width: 190px;
+    height: 250px;
+    border: 4px solid black;
+    ;
+}
+
+.Popular-image-hidden {
+    padding: 40px 10px;
+    background-color: #ffd25f;
+    height: 260px;
+}
+
+.Popular h2 {
+    font-size: 32px;
+    color: black;
+}
+
+.Latest-image0 img {
+    margin: 0 0 0 80px;
+    width: 190px;
+    height: 250px;
+    border: 4px solid #00b2ed;
+}
+
+.Latest-image-hidden img {
+    margin: 0 0 0 80px;
+    width: 190px;
+    height: 250px;
+    border: 4px solid black;
+}
+
+.Latest-image0 {
+    padding: 40px 10px;
+    background-color: #ffd25f;
+    height: 350px;
+}
+
+.Latest-image-hidden {
+    padding: 40px 10px;
+    background-color: #ffd25f;
+    height: 260px;
+}
+
+.Latest h2 {
+    font-size: 32px;
+    color: black;
+}
+
+.Oldest h2 {
+    font-size: 32px;
+    color: black;
+}
+
+.oldest-image0 {
+    padding: 40px 10px;
+    background-color: #ffd25f;
+    height: 350px;
+}
+
+.oldest-image0 img {
+    margin: 0 0 0 80px;
+    width: 190px;
+    height: 250px;
+    border: 4px solid #ed1000;
+}
+
+.View-more-oldest {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.View-more-oldest a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.overlay-text {
+    position: absolute;
+    text-align: center;
+    padding-left: 325px;
+    font-family:Tahoma;
+}
+
+.overlay-text p {
+    text-align: center;
+    color: black;
+}
+
+.overlay-text h2 {
+    font-size: 60px;
+    text-align: center;
+    color: black;
+
+}
+
+.dashboard img {
+    display: center;
+    align-items: start;
+}
+
+.View-more {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.View-more a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.View-more a:hover {
+    color: red;
+}
+
+.View-more-latest {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.View-more-latest a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.View-more-latest a:hover {
+    color: red;
+}
+
+.View-more-oldest {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.View-more-oldest a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.View-more-oldest a:hover {
+    color: red;
+}
+
+.open-modal {
+    padding: 10px 15px;
+    background: red;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:662px;
+    width:162px;
+    height:38px;
+    font-size:18px;
+    text-decoration: none;
+    margin-top:90px;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+   
+  }
+
+  .open-modal:hover {
+    background-color:orange;
+    color:black;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+
+  }
+
+  .modal-toggle {
+    display: none;
+   
+    
+  }
+
+  .modal-toggle:checked+.modal {
+    display: block;
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    border-radius: 5px;
+    position: relative;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: black;
+   
+   
+    
+  }
+  .modal-content h2{
+    color:red;
+    display:flex;
+    justify-content:center;
+  }
+  .modal-content input{
+   
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .close:hover {
+    color: black;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin: 10px 0 5px;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button[type="submit"] {
+    background-color: #28a745;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width:50px;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  button[type="register"] {
+    background-color:rgb(211, 79, 101);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2px;
+  }
+
+  button[type="register"]:hover {
+    background-color: pink;
+  }
+
+  
+  .open-modaln {
+    
+    
+    color: rgb(0, 0, 0);
+    text-align: right;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+   
+ 
+  }
+
+  .open-modaln-hover {
+    background-color: #0056b3;
+  }
+
+  .modaln {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-togglen {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .modal-togglen:checked+.modaln {
+    display: block;
+  }
+
+  .modal-contentn {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    height:50%;
+    border-radius: 5px;
+    position: relative;
+    font-family: "Afacad Flux", sans-serif;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .close:hover {
+    color: black;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin: 10px 0 5px;
+  }
+
+  input[type="date"],
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button[type="submitn"] {
+    background-color: #28a745;
+    
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Afacad Flux", sans-serif;
+  }
+
+  button[type="submitn"]:hover {
+    background-color: #218838;
+  }
+  
+  button[type="registern"] {
+   
+    border: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+   
+  }
+
+  button[type="registern"]:hover {
+    color:blue;
+  }
+   
+  .toreg{
+    display:flex;
+    justify-content:center;
+  }
+  .toreg{
+    margin-top:10px;
+    margin-bottom:0px;
+    display:flex;
+    align-items:center;
+  }
+  .toreg h7{
+    font-size:17px;
+  }
+  .toreg p{
+    font-size:15px;
+    text-decoration:underline;
+  }
+
+  .tolog button{
+    background-color:white;
+    font-size:15px;
+    margin-left:200px;
+    font-family: "Afacad Flux", sans-serif;
+    border:1px solid black;
+  }
+  .log button{
+    border-width:1000px;
+    
+  }
+  .log{
+    display:flex;
+    justify-content:center;
+    b
+    
+  }
+
+
+.userNeed a {
+    text-decoration: none;
+    text-align: center;
+
+
+    color: white;
+
+
+}
+
+.userNeed {
+
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.userNeed-sg input:hover {
+    color: black;
+    background-color: orange;
+}
+
+.userNeed-li input:hover {
+    color: black;
+    background-color: orange;
+
+}
+
+
+.userNeed a:hover {
+    color: blue;
+}
+
+.userNeed-sg input {
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    font-size: large;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.userNeed-sg a {
+    margin-top: 100px;
+}
+
+.userNeed-li input {
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    background-color: black;
+    font-size: large;
+    color: white;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.htext {
+    display: flex;
+    font-size: 16px;
+    font-family:Tahoma;
+    justify-content:center;
+    margin-top:50px;
+    
+}
+
+
+
+
+.View-more-latest {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.View-more-latest a {
+    text-decoration: none;
+    
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.box {
+
+    transition: 0.5s;
+}
+
+.box:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.overlay-button {
+    position: absolute;
+    margin-left: 70px;
+}
+
+.overlay-button button {
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: purple;
+    color: white;
+
+
+}
+
+.overlay-button1 {
+    position: absolute;
+    margin-left: 350px;
+}
+
+.overlay-button1 button {
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: purple;
+    color: white;
+}
+
+.overlay-button2 {
+    position: absolute;
+    margin-left: 635px;
+}
+
+.overlay-button2 button {
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: purple;
+    color: white;
+}
+
+.overlay-button3 {
+    position: absolute;
+    margin-left: 920px;
+}
+
+.overlay-button3 button {
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: purple;
+    color: white;
+}
+
+.overlay-button4 {
+    position: absolute;
+    margin-left: 1205px;
+}
+
+.overlay-button4 button {
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: purple;
+    color: white;
+}
+
+.overlay-button5 {
+    position: absolute;
+    margin-left: 80px;
+}
+
+.overlay-button5 button {
+
+    background-color: #00b2ed;
+    color: white;
+}
+
+.overlay-button6 {
+    position: absolute;
+    margin-left: 360px;
+}
+
+.overlay-button6 button {
+
+    background-color: #00b2ed;
+    color: white;
+}
+
+.overlay-button7 {
+    position: absolute;
+    margin-left: 640px;
+}
+
+.overlay-button7 button {
+
+    background-color: #00b2ed;
+    color: white;
+}
+
+.overlay-button8 {
+    position: absolute;
+    margin-left: 930px;
+}
+
+.overlay-button8 button {
+
+    background-color: #00b2ed;
+    color: white;
+}
+
+.overlay-button9 {
+    position: absolute;
+    margin-left: 1210px;
+}
+
+.overlay-button9 button {
+
+    background-color: #00b2ed;
+    color: white;
+}
+
+.overlay-button10 {
+    position: absolute;
+    margin-left: 80px;
+}
+
+.overlay-button10 button {
+
+    background-color: #ed1000;
+    color: white;
+}
+
+.overlay-button11 {
+    position: absolute;
+    margin-left: 360px;
+}
+
+.overlay-button11 button {
+
+    background-color: #ed1000;
+    color: white;
+}
+
+.overlay-button12 {
+    position: absolute;
+    margin-left: 640px;
+}
+
+.overlay-button12 button {
+
+    background-color: #ed1000;
+    color: white;
+}
+
+.overlay-button13 {
+    position: absolute;
+    margin-left: 930px;
+}
+
+.overlay-button13 button {
+
+    background-color: #ed1000;
+    color: white;
+}
+
+.overlay-button14 {
+    position: absolute;
+    margin-left: 1210px;
+}
+
+.overlay-button14 button {
+
+    background-color: #ed1000;
+    color: white;
+}
+
+
+.box {
+    transition: 0.5s;
+}
+
+.box:hover {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.favorite {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.watch {
+    margin-left: 45px;
+}
+
+.author {
+    margin-left: 5px;
+}
+
+
+.other-information-background img {
+    height: 600px;
+    width: 1520px;
+}
+
+.thick-line {
+    background-color: rgb(22, 22, 22);
+    height: 100px;
+    width: 1520px;
+    border: 1px solid #ffa600;
+}
+
+.other-information-background {
+    display: flex;
+    justify-content: center;
+}
+
+.overlay-about {
+    position: absolute;
+}
+
+.overlay-about h1 {
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 50px;
+    color: black;
+}
+
+#outerbox {
+
+    overflow: hidden;
+    position: relative;
+
+    background-image:url('forOuterBG/download\ \(16\).jpg');
+    
+    width: 1518px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border: 1px solid black;
+
+
+
+}
+
+#sliderbox {
+    position: relative;
+    display: flex;
+    size: 50px;
+    animation-name: slider;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+
+
+
+}
+
+#sliderbox img {
+    float: left;
+    height: 313px;
+    width: 940px;
+    border: 1px solid white;
+
+}
+
+h4 {
+    text-align: center;
+
+}
+
+.all-genres a {
+    text-decoration: none;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    font-family: "Afacad Flux", sans-serif;
+ font-size:20px;
+}
+
+.more a {
+    text-decoration: none;
+    color: black;
+}
+
+.more p {
+    border: 1px solid black;
+    text-align: center;
+    width: 1020px;
+}
+
+.allgenres-name {
+    padding-top: 100px;
+    padding-left: 238px;
+    font-family:Tahoma;
+}
+
+.allgenres-name h2 {
+    color: black;
+}
+
+.allgenres-name {
+    display: flex;
+}
+
+.allgenres-name a {
+    margin-left: 820px;
+    margin-top: 15px;
+    color: black;
+}
+
+.all-genres {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family:Tahoma;
+}
+
+.all-genres img {
+    height: 130px;
+    width: 120px;
+    border-radius: 20px;
+
+
+}
+
+.all-genres h4 {
+    color: black;
+    font-family:tahoma;
+
+}
+
+
+
+
+.newRelease {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 238px;
+    font-family:Tahoma;
+}
+
+.newRelease a {
+    margin-left: 760px;
+    margin-top: 15px;
+    color: black;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;      
+    font-size:20px;
+}
+
+.newRelease h2 {
+    width: 180px;
+    color: black;
+}
+
+.new-release-image {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;      
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.new-release-image img {
+    width: 145px;
+    height: 220px;
+}
+
+.new-release-image {
+    display: flex;
+    margin-top: 21px;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+.thumbnail {
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: transform 0.3s;
+    width: 140px;
+    height: 220px;
+
+
+}
+
+.thumbnail img {
+    width: 140px;
+    height: 220px;
+
+
+}
+
+
+.thumbnail:hover {
+    transform: scale(1.3)
+}
+
+.thumbnail:hover .discription {
+    opacity: 2;
+    background-color: red;
+    color: white;
+}
+
+.discription {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Constantia, "Luicida Bright", "DejaVu Serif", Georgia, "serif";
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+
+
+
+
+.most-popular {
+    display: flex;
+    font-family:Tahoma;
+    padding-top: 100px;
+    padding-left: 238px;
+}
+
+.most-popular h2 {
+    width: 180px;
+    color: black;
+}
+
+.most-popular a {
+    margin-left: 760px;
+    margin-top: 15px;
+    color: black;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;      
+    font-size:20px;
+}
+
+.most-popular-image {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.most-popular-image img {
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;      
+    width: 140px;
+    height: 220px;
+
+}
+
+.most-popular-image {
+    display: flex;
+    margin-top: 21px;
+    gap: 15px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail {
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: transform 0.3s;
+    width: 140px;
+    height: 220px;
+    
+
+
+}
+
+.thumbnail img {
+    width: 140px;
+    height: 220px;
+
+
+}
+
+
+.thumbnail:hover {
+    transform: scale(1.3)
+}
+
+.thumbnail:hover .discription {
+    opacity: 2;
+    background-color: red;
+    color: white;
+}
+
+.discription {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: red;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;      
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.explore {
+    background-image: url('forExplore/thumb21.jpg');
+
+    margin-bottom:10px;
+    width:100%;;
+    height: 90vh;
+}
+
+.explore-by-genre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 30px;
+    font-family: "Afacad Flux", sans-serif;
+
+}
+.explore-header{
+    display:flex;
+    justify-content:center;
+    font-family: "Afacad Flux", sans-serif;
+}
+.explore-header p{
+    color:black;
+    font-size:50px;
+}
+
+.explore-by-genre1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 30px;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.explore-by-genre2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.explore-by-genre3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 30px;
+    font-family: "Afacad Flux", sans-serif;
+
+}
+
+.horror-border h2 {
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    padding-top:10px;
+    
+
+}
+
+.horror-border a {
+    text-decoration: none;
+}
+
+.fantasy-border h2 {
+
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    padding-top:10px;
+}
+
+.fantasy-border a {
+    text-decoration: none;
+}
+
+.comedy-border h2 {
+
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    padding-top:10px;
+}
+
+.comedy-border a {
+    text-decoration: none;
+}
+
+.action-border h2 {
+
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    padding-top:10px;
+}
+
+.action-border a {
+    text-decoration: none;
+}
+
+.romance-border h2 {
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    padding-top:10px;
+}
+
+.romance-border a {
+    text-decoration: none;
+}
+
+.adventure-border h2 {
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    padding-top:10px;
+}
+
+.adventure-border a {
+    text-decoration: none;
+}
+
+.sports-border h2 {
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    padding-top:10px;
+}
+.sports-border a{
+    text-decoration:none;
+}
+
+.cooking-border h2 {
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    padding-top:10px;
+}
+.cooking-border a{
+    text-decoration:none;
+}
+
+.harem-border h2 {
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    padding-top:10px;
+}
+.harem-border a{
+    text-decoration:none;
+}
+
+.schoollife-border h2 {
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    padding-top:10px;
+}
+.schoollife-border a{
+    text-decoration:none;
+}
+
+.bl h2 {
+    border: 1px solid black;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color:red;
+    margin-right:310px;
+    padding-top:10px;
+}
+.bl a{
+    text-decoration:none;
+}
+
+@keyframes slider {
+    0% {
+        left: 0px;
+
+    }
+
+    9% {
+        left: 0px;
+
+    }
+
+    13% {
+        left: -1300px;
+
+    }
+
+    18% {
+        left: -1300px;
+    }
+
+    25% {
+        left: -2900px;
+    }
+
+    31% {
+        left: -2900px;
+    }
+
+    36% {
+        left: -4500px;
+    }
+
+    41% {
+        left: -4500px;
+    }
+
+    47% {
+        left: -5900px;
+    }
+
+    50% {
+        left: -5900px;
+    }
+
+    56% {
+        left: -7500px;
+    }
+
+    59% {
+        left: -7500px;
+    }
+
+
+    63% {
+        left: -8900px;
+    }
+
+    67% {
+        left: -8900px;
+    }
+
+    71% {}
+
+    75% {}
+
+    81% {}
+
+    86% {}
+
+    91% {}
+
+    97% {}
+
+    100% {}
+
+
+}
+
+.slide1 {
+    margin-left: 300px;
+    margin-right: 250px;
+}
+
+.slide2 {
+    margin-left: 100px;
+    margin-right: 300px;
+}
+
+.slide3 {
+    margin-left: 350px;
+    margin-right: 310px;
+}
+
+.slide4 {
+    margin-left: 350px;
+    margin-right: 180px;
+}
+
+.slide5 {
+    margin-left: 300px;
+    margin-right: 350px;
+}
+
+.slide6 {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.slide7 {
+    margin-left: 150px;
+    margin-right: 250px;
+}
+
+.slide8 {
+    margin-left: 130px;
+    margin-right: 300px;
+}
+
+.slide9 {
+    margin-left: 80px;
+    margin-right: 450px;
+}
+
+.slide10 {
+    margin-left: 100px;
+    margin-right: 450px;
+}
+
+.lookingfor-border{
+    margin-top:100px;
+    
+    height:200px;
+}
+.lookingfor{
+    background-color:#2c2b2b;
+   display:flex;
+   justify-content:center;
+   margin-top:40px;
+   margin-bottom:40px;
+    height:120px;
+    font-family: "Afacad Flux", sans-serif;
+}
+.lookingfor p{
+    color:white;
+    font-size:50px;
+    text-align:center;
+    margin-top:30px;
+}
+
+.nav-bottom{
+   
+    height:100px;
+    
+   
+}
+.nav-bottom-image{
+  
+  height:50px
+   
+}
+.nav-bottom-image img{
+    margin-left:1015px;
+    height:350px;
+    
+    
+}
+
+
+
+
+.thickline {
+ 
+    height: 50px;
+}
+
+.about {
+    border: 1px solid black;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.footer {
+   
+    display:flex;
+    font-family: "Afacad Flux", sans-serif;
+    
+    background-color: #2c2b2b;
+    width: 1520px;
+    height: 250px;
+}
+
+.forabout {
+    margin-top:20px;
+    margin-left:50px;
+   
+    
+}
+.after-footer{
+    background-color:black;
+    height:60px;
+    display:flex;
+    justify-content:center; 
+    gap:50px;
+    border:1px solid black;
+   
+    
+}
+.forabout p{
+    font-size:26px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#949494;
+}
+.forabout a{
+    text-decoration:none;
+}
+.formargin{
+    margin-left:1230px;
+}
+.chibi{
+    height:35px;
+    margin-top:15px;
+   
+}
+.haven{
+    height:35px;
+    margin-top:15px;
+}
+.terms{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:50px; 
+}
+.forabout p:hover{
+    color:red;
+    
+}
